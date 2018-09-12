@@ -10,7 +10,9 @@
       "typescript": "3.0.3"
    },
    "dependencies": {
+      "graphql-yoga": "^1.16.2",
       "mssql": "^4.2.1",
+      "nodemon": "^1.18.4",
       "reflect-metadata": "^0.1.12",
       "typeorm": "0.2.7"
    },
