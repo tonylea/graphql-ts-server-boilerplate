@@ -15,7 +15,8 @@
     "graphql-yoga": "^1.16.2",
     "mssql": "^4.2.1",
     "reflect-metadata": "^0.1.12",
-    "typeorm": "0.2.7"
+    "typeorm": "0.2.7",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "nodemon --exec ts-node src/index.ts"
