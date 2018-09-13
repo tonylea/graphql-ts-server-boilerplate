@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "coenraads.bracket-pair-colorizer",
+    "stringham.move-ts",
+    "esbenp.prettier-vscode",
+    "kumar-harsh.graphql-for-vscode",
+    "editorconfig.editorconfig"
+  ]
+}
