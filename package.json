@@ -1,19 +1,24 @@
 {
   "name": "graphql-ts-server-boilerplate",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "Awesome project developed with TypeORM.",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.1",
+    "@types/jest": "^23.3.2",
     "@types/node": "^9.6.6",
     "@types/uuid": "^3.4.3",
     "gql2ts": "^1.7.2",
+    "jest": "^23.6.0",
     "nodemon": "^1.17.3",
+    "ts-jest": "^23.1.4",
     "ts-node": "6.0.0",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.12.0",
     "typescript": "2.8.3"
   },
   "dependencies": {
+    "graphql-request": "^1.8.2",
     "bcryptjs": "^2.4.3",
     "graphql-import": "^0.5.0",
     "graphql-yoga": "^1.9.2",
@@ -25,6 +30,21 @@
   },
   "scripts": {
     "start": "nodemon --exec ts-node src/index.ts",
-    "gen-schema-types": "gql2ts src/schema.graphql -o src/types/schema.d.ts"
+    "gen-schema-types": "gql2ts src/schema.graphql -o src/types/schema.d.ts",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
