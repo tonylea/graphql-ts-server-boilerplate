@@ -18,6 +18,7 @@
     "typescript": "2.8.3"
   },
   "dependencies": {
+    "graphql-request": "^1.8.2",
     "bcryptjs": "^2.4.3",
     "graphql-import": "^0.5.0",
     "graphql-yoga": "^1.9.2",
