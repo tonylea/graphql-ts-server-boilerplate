@@ -8,6 +8,7 @@
     "@types/node": "^10.11.6",
     "@types/uuid": "^3.4.4",
     "gql2ts": "^1.10.1",
+    "graphql-request": "^1.8.2",
     "jest": "^23.6.0",
     "nodemon": "^1.18.4",
     "ts-jest": "^23.10.4",
